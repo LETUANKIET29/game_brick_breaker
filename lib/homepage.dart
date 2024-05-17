@@ -299,13 +299,13 @@ void moveRight() {
                     ),
 
                     // bricks
-                    // MyBrick(
-                    //   bricksX: myBricks[0][0],
-                    //   bricksY: myBricks[0][1],
-                    //   bricksWidth: bricksWidth,
-                    //   bricksHeight: bricksHeight,
-                    //   isBrickHit: myBricks[0][2],
-                    // ),
+                    MyBrick(
+                      bricksX: myBricks[0][0],
+                      bricksY: myBricks[0][1],
+                      bricksWidth: bricksWidth,
+                      bricksHeight: bricksHeight,
+                      isBrickHit: myBricks[0][2],
+                    ),
 
                     for (int i = 1; i < myBricks.length; i++)
                       MyBrick(
